@@ -72,8 +72,8 @@ const App: React.FC = () => {
     <>
       <GlobalStyle />
       <Wrapper>
-        <h1>TypeScript Quiz</h1>
-        <p>Quiz for haters lol Jk actually TSX quiz is so much fun</p>
+        <h1>  Quiz</h1>
+        <p>TypeScript Quiz for haters lol Jk actually TSX quiz is so much fun</p>
         {gameOver || userAnswers.length === TOTAL_QUESTIONS ? (
           <button className="start" onClick={startTrivia}>
             Start
